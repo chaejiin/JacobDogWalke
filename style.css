@@ -84,7 +84,7 @@ header nav a {
   background: #f1f1f1;
   margin: 20px 0;
   padding: 20px;
-  border-left: 5px solid #ff914d;
+  border-left: 5px solid #fab528;
 }
 
 footer {
@@ -135,6 +135,39 @@ footer {
   opacity: 0.7;
   transform: scale(1);
 }
+
+.tinder--buttons button {
+  border-radius: 50%;
+  line-height: 60px;
+  width: 60px;
+  height: 60px;
+  border: 0;
+  background: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.tinder--buttons button:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.tinder--buttons .icon-reset {
+  width: 32px;
+  height: 32px;
+}
+
+
+.icon-reset {
+  width: 32px;
+  height: 32px;
+}
+
+
 
 .tinder--cards {
   flex-grow: 1;
@@ -208,9 +241,9 @@ footer {
 }
 
 .fa-heart {
-  color: #FFACE4;
+  color: #fab528;
 }
 
 .fa-remove {
-  color: #CDD6DD;
+  color: #FF0000;
 }
